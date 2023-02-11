@@ -10,10 +10,10 @@ const createSeqArray = (n) => {
 }
 
 
-const result1 = createSeqArray(1)  // [1]
-const result2 = createSeqArray(3)   //  [1, 2, 3]
-const result3 = createSeqArray(5) // [1, 2, 3, 4, 5]
+const result1 = createSeqArray(1)
+const result2 = createSeqArray(3)
+const result3 = createSeqArray(5)
 
-console.log(result1)
-console.log(result2)
-console.log(result3)
+console.log(result1) // [1]
+console.log(result2) // [1, 2, 3]
+console.log(result3) // [1, 2, 3, 4, 5]
