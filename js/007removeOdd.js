@@ -1,6 +1,5 @@
 const removeOdd = (array) => {
-  // 配列から要素を取り除くときはバックループを使用すると楽
-  for(let i = array.length - 1; i >= 0; i--){
+  for(let i = array.length - 1; i >= 0; i--){ // 配列から要素を取り除くときはバックループを使用すると楽
     if( array[i] % 2 !== 0) array.splice(i, 1);
   }
   return array
