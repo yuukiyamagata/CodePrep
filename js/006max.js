@@ -1,4 +1,3 @@
-
 const max = array => array.length === 0 ? - 1 : array.reduce((a, b) => b - a > 0 ? b : a);
 
 const result1 = max([3, 7, 8, 4, 2])

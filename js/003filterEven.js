@@ -1,4 +1,3 @@
-
 const filterEven = array => array.filter(number => number % 2 === 0);
 
 const result1 =filterEven([1, 2, 3, 4, 5])
