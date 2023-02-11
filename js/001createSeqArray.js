@@ -1,12 +1,12 @@
 const createSeqArray = (n) => {
   if(n <= 0 ) return [];
 
-  const createSeqArray = [];
+  const createdSeqArray = [];
   for(let i = 0; i < n; i++){
-    createSeqArray[i] = i + 1
+    createdSeqArray[i] = i + 1
   }
 
-  return createSeqArray;
+  return createdSeqArray;
 }
 
 
